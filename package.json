@@ -14,7 +14,8 @@
     "test:dp": "jest 'tests/problems/.*dp.*\\.test\\.js'",
     "test:data-structure": "jest 'tests/problems/.*data-structure.*\\.test\\.js'",
     "test:string": "jest 'tests/problems/.*string.*\\.test\\.js'",
-    "test:single": "jest -t"
+    "test:single": "jest -t",
+    "test:file": "jest"
   },
   "keywords": [],
   "author": "",
