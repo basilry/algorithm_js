@@ -1,0 +1,16 @@
+{
+  "name": "0095_algorithm",
+  "version": "1.0.0",
+  "description": "자바스크립트 알고리즘 풀이",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
