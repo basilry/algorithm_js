@@ -8,8 +8,12 @@
  * @returns {boolean} - 두 문자열이 아나그램인지 여부
  */
 function isAnagram(s, t) {
+  // 공백을 제거
+  const cleanS = s.replace(/\s/g, '');
+  const cleanT = t.replace(/\s/g, '');
+  
   // 길이가 다르면 아나그램이 될 수 없음
-  if (s.length !== t.length) {
+  if (cleanS.length !== cleanT.length) {
     return false;
   }
   
@@ -17,14 +21,14 @@ function isAnagram(s, t) {
   const charCount = {};
   
   // 첫 번째 문자열의 각 문자 빈도수 계산
-  for (let i = 0; i < s.length; i++) {
-    const char = s[i];
+  for (let i = 0; i < cleanS.length; i++) {
+    const char = cleanS[i];
     charCount[char] = (charCount[char] || 0) + 1;
   }
   
   // 두 번째 문자열의 각 문자로 빈도수 감소
-  for (let i = 0; i < t.length; i++) {
-    const char = t[i];
+  for (let i = 0; i < cleanT.length; i++) {
+    const char = cleanT[i];
     
     // 해당 문자가 없거나 빈도수가 0이면 아나그램이 아님
     if (!charCount[char]) {
@@ -52,14 +56,18 @@ function isAnagram(s, t) {
  * @returns {boolean} - 두 문자열이 아나그램인지 여부
  */
 function isAnagramSorting(s, t) {
+  // 공백 제거
+  const cleanS = s.replace(/\s/g, '');
+  const cleanT = t.replace(/\s/g, '');
+  
   // 길이가 다르면 아나그램이 될 수 없음
-  if (s.length !== t.length) {
+  if (cleanS.length !== cleanT.length) {
     return false;
   }
   
   // 문자열을 배열로 변환하고 정렬한 후 다시 문자열로 변환
-  const sortedS = s.split('').sort().join('');
-  const sortedT = t.split('').sort().join('');
+  const sortedS = cleanS.split('').sort().join('');
+  const sortedT = cleanT.split('').sort().join('');
   
   // 정렬된 문자열이 같으면 아나그램
   return sortedS === sortedT;
