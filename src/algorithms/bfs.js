@@ -5,25 +5,25 @@
  * @returns {Array} 방문 순서대로의 노드 배열
  */
 function bfs(graph, start) {
-  const visited = new Set();
-  const queue = [start];
-  const result = [];
-  
-  visited.add(start);
-  
-  while (queue.length > 0) {
-    const current = queue.shift();
-    result.push(current);
+    const visited = new Set()
+    const queue = [start]
+    const result = []
+
+    visited.add(start)
+
+    while (queue.length > 0) {
+      const current = queue.shift();
+      result.push(current);
     
-    for (const neighbor of graph[current] || []) {
-      if (!visited.has(neighbor)) {
-        visited.add(neighbor);
-        queue.push(neighbor);
-      }
+      for (const neighbor of graph[current] || []) {
+        if (!visited.has(neighbor)) {
+                  visited.add(neighbor)
+                  queue.push(neighbor)
+              }
+          }
     }
-  }
-  
-  return result;
+
+    return result
 }
 
-module.exports = bfs; 
+module.exports = bfs

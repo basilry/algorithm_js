@@ -5,22 +5,22 @@
  * @returns {Array} 방문 순서대로의 노드 배열
  */
 function dfs(graph, start) {
-  const visited = new Set();
-  const result = [];
-  
-  function dfsHelper(node) {
-    visited.add(node);
-    result.push(node);
-    
-    for (const neighbor of graph[node] || []) {
-      if (!visited.has(neighbor)) {
-        dfsHelper(neighbor);
-      }
+    const visited = new Set()
+    const result = []
+
+    function dfsHelper(node) {
+        visited.add(node)
+        result.push(node)
+
+        for (const neighbor of graph[node] || []) {
+            if (!visited.has(neighbor)) {
+                dfsHelper(neighbor)
+            }
+        }
     }
-  }
-  
-  dfsHelper(start);
-  return result;
+
+    dfsHelper(start)
+    return result
 }
 
-module.exports = dfs; 
+module.exports = dfs

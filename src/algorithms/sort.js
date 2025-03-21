@@ -4,7 +4,7 @@
  * @returns {string[]} 정렬된 배열
  */
 function alphabeticalSort(arr) {
-  return [...arr].sort();
+    return [...arr].sort()
 }
 
 /**
@@ -13,7 +13,7 @@ function alphabeticalSort(arr) {
  * @returns {string[]} 정렬된 배열
  */
 function lengthSort(arr) {
-  return [...arr].sort((a, b) => a.length - b.length);
+    return [...arr].sort((a, b) => a.length - b.length)
 }
 
 /**
@@ -23,15 +23,15 @@ function lengthSort(arr) {
  * @returns {string[]} 정렬된 배열
  */
 function frequencySort(arr, char) {
-  return [...arr].sort((a, b) => {
-    const countA = (a.match(new RegExp(char, 'g')) || []).length;
-    const countB = (b.match(new RegExp(char, 'g')) || []).length;
-    return countB - countA; // 빈도 높은 순
-  });
+    return [...arr].sort((a, b) => {
+        const countA = (a.match(new RegExp(char, "g")) || []).length
+        const countB = (b.match(new RegExp(char, "g")) || []).length
+        return countB - countA // 빈도 높은 순
+    })
 }
 
 module.exports = {
-  alphabeticalSort,
-  lengthSort,
-  frequencySort
-}; 
+    alphabeticalSort,
+    lengthSort,
+    frequencySort,
+}
