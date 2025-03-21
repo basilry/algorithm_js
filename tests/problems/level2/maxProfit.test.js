@@ -1,4 +1,4 @@
-const { maxProfit, maxProfitWithDays } = require('../../../src/algorithms/problems/level2/maxProfit');
+const { maxProfit, maxProfitWithDays } = require('../../../src/problems/level2/maxProfit');
 
 describe('주식 매매 최적 시점 문제 테스트', () => {
   describe('maxProfit 함수 테스트', () => {

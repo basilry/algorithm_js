@@ -1,4 +1,4 @@
-const solveSudoku = require('../../../src/algorithms/problems/level2/sudoku');
+const solveSudoku = require('../../../src/problems/level2/sudoku');
 
 describe('스도쿠 풀기 문제', () => {
   test('예제 1: 기본 스도쿠 퍼즐 풀기', () => {

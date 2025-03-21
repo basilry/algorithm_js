@@ -1,4 +1,4 @@
-const { findAllSubsets, findAllSubsetsRecursive } = require('../../../src/algorithms/problems/level1/subsets');
+const { findAllSubsets, findAllSubsetsRecursive } = require('../../../src/problems/level1/subsets');
 
 describe('모든 부분집합 찾기 문제 (반복적 방법)', () => {
   test('예제 1: [1, 2, 3]의 모든 부분집합', () => {

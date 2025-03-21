@@ -1,4 +1,4 @@
-const { lengthOfLIS, lengthOfLISOptimized, findLIS } = require('../../../src/algorithms/problems/level3/lis');
+const { lengthOfLIS, lengthOfLISOptimized, findLIS } = require('../../../src/problems/level3/lis');
 
 describe('최장 증가 부분 수열(LIS) 문제 테스트', () => {
   describe('기본 lengthOfLIS 함수 테스트', () => {

@@ -1,4 +1,4 @@
-const { minDistance, minDistanceWithOperations } = require('../../../src/algorithms/problems/level2/editDistance');
+const { minDistance, minDistanceWithOperations } = require('../../../src/problems/level2/editDistance');
 
 describe('편집 거리 문제 테스트', () => {
   describe('minDistance 함수 테스트', () => {

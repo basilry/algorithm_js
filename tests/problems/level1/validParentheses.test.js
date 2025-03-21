@@ -1,4 +1,4 @@
-const isValidParentheses = require('../../../src/algorithms/problems/level1/validParentheses');
+const isValidParentheses = require('../../../src/problems/level1/validParentheses');
 
 describe('유효한 괄호 문제', () => {
   test('예제 1: "()" -> true', () => {

@@ -1,4 +1,4 @@
-const { isMatch, isMatchRecursive } = require('../../../src/algorithms/problems/level3/regexMatch');
+const { isMatch, isMatchRecursive } = require('../../../src/problems/level3/regexMatch');
 
 describe('정규 표현식 매칭 문제 테스트', () => {
   describe('동적 프로그래밍 기반 isMatch 함수 테스트', () => {

@@ -1,4 +1,4 @@
-const shortestPath = require('../../../src/algorithms/problems/level1/shortestPath');
+const shortestPath = require('../../../src/problems/level1/shortestPath');
 
 describe('최단 경로 찾기 문제', () => {
   test('예제 1: 기본 미로', () => {

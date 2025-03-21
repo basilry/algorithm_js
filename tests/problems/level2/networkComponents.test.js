@@ -1,4 +1,4 @@
-const countNetworkComponents = require('../../../src/algorithms/problems/level2/networkComponents');
+const countNetworkComponents = require('../../../src/problems/level2/networkComponents');
 
 describe('네트워크 연결 요소 문제', () => {
   test('예제 1: 3대의 컴퓨터, 연결 [[0,1], [1,2]] -> 1개의 연결 요소', () => {

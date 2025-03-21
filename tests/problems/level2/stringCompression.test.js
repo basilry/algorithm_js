@@ -1,4 +1,4 @@
-const compressString = require('../../../src/algorithms/problems/level2/stringCompression');
+const compressString = require('../../../src/problems/level2/stringCompression');
 
 describe('문자열 압축 문제', () => {
   test('예제 1: "aabcccccaaa" -> "a2bc5a3"', () => {

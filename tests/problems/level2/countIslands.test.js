@@ -1,4 +1,4 @@
-const { countIslands, countIslandsBFS } = require('../../../src/algorithms/problems/level2/countIslands');
+const { countIslands, countIslandsBFS } = require('../../../src/problems/level2/countIslands');
 
 describe('섬의 개수 세기 문제 테스트', () => {
   describe('DFS 구현 테스트', () => {

@@ -1,4 +1,4 @@
-const findAllPermutations = require('../../../src/algorithms/problems/level1/permutations');
+const findAllPermutations = require('../../../src/problems/level1/permutations');
 
 describe('모든 순열 찾기 문제', () => {
   test('예제 1: [1, 2, 3]의 모든 순열', () => {

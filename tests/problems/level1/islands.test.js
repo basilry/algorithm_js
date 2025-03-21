@@ -1,4 +1,4 @@
-const numIslands = require('../../../src/algorithms/problems/level1/islands');
+const numIslands = require('../../../src/problems/level1/islands');
 
 describe('섬의 개수 세기 문제', () => {
   test('예제 1: [[1,1,0], [1,0,0], [0,0,1]] -> 2개의 섬', () => {

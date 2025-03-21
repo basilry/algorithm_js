@@ -7,7 +7,7 @@ const {
   inorderTraversalIterative,
   postorderTraversalIterative,
   arrayToTree
-} = require('../../../src/algorithms/problems/level3/treeTraversal');
+} = require('../../../src/problems/level3/treeTraversal');
 
 describe('트리 순회 문제 테스트', () => {
   // 테스트에 사용할 트리 생성

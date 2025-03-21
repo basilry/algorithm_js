@@ -1,4 +1,4 @@
-const wordTransform = require('../../../src/algorithms/problems/level2/wordTransform');
+const wordTransform = require('../../../src/problems/level2/wordTransform');
 
 describe('단어 변환 문제', () => {
   test('예제 1: "hit" -> "cog" (hit -> hot -> dot -> dog -> cog)', () => {

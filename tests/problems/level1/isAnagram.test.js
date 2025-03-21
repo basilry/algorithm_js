@@ -1,4 +1,4 @@
-const { isAnagram, isAnagramSorting } = require('../../../src/algorithms/problems/level1/isAnagram');
+const { isAnagram, isAnagramSorting } = require('../../../src/problems/level1/isAnagram');
 
 describe('두 문자열의 아나그램 확인 문제 테스트', () => {
   describe('해시맵 기반 isAnagram 함수 테스트', () => {

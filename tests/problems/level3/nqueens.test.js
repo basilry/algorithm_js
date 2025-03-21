@@ -1,4 +1,4 @@
-const solveNQueens = require('../../../src/algorithms/problems/level3/nqueens');
+const solveNQueens = require('../../../src/problems/level3/nqueens');
 
 describe('N-Queens 문제 테스트', () => {
   test('n=4인 경우 정확한 해답을 반환해야 함', () => {

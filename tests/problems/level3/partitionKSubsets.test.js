@@ -1,4 +1,4 @@
-const canPartitionKSubsets = require('../../../src/algorithms/problems/level3/partitionKSubsets');
+const canPartitionKSubsets = require('../../../src/problems/level3/partitionKSubsets');
 
 describe('배열을 K개의 부분집합으로 분할하는 문제 테스트', () => {
   test('배열 [4, 3, 2, 3, 5, 2, 1]을 k=4로 분할 가능해야 함 (목표합: 5)', () => {

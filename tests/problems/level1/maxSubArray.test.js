@@ -1,4 +1,4 @@
-const { maxSubArray, maxSubArrayWithIndices } = require('../../../src/algorithms/problems/level1/maxSubArray');
+const { maxSubArray, maxSubArrayWithIndices } = require('../../../src/problems/level1/maxSubArray');
 
 describe('최대 부분합 문제 테스트', () => {
   describe('maxSubArray 함수 테스트', () => {

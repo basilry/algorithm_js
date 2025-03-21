@@ -1,4 +1,4 @@
-const { climbStairs, climbStairsOptimized } = require('../../../src/algorithms/problems/level1/climbStairs');
+const { climbStairs, climbStairsOptimized } = require('../../../src/problems/level1/climbStairs');
 
 describe('계단 오르기 문제 테스트', () => {
   // 기본 구현 테스트

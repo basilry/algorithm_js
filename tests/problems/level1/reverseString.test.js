@@ -1,4 +1,4 @@
-const reverseString = require('../../../src/algorithms/problems/level1/reverseString');
+const reverseString = require('../../../src/problems/level1/reverseString');
 
 describe('문자열 뒤집기 문제', () => {
   test('예제 1: "hello" -> "olleh"', () => {

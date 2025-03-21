@@ -1,4 +1,4 @@
-const findItinerary = require('../../../src/algorithms/problems/level3/findItinerary');
+const findItinerary = require('../../../src/problems/level3/findItinerary');
 
 describe('여행 경로 찾기 문제', () => {
   test('예제 1: [["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]', () => {

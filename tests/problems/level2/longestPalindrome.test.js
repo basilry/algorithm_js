@@ -1,4 +1,4 @@
-const longestPalindrome = require('../../../src/algorithms/problems/level2/longestPalindrome');
+const longestPalindrome = require('../../../src/problems/level2/longestPalindrome');
 
 describe('가장 긴 팰린드롬 부분 문자열 문제', () => {
   test('예제 1: "babad" -> "bab" 또는 "aba"', () => {

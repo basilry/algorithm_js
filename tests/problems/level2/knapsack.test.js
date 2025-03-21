@@ -1,4 +1,4 @@
-const { knapsack, knapsackOptimized, knapsackWithItems } = require('../../../src/algorithms/problems/level2/knapsack');
+const { knapsack, knapsackOptimized, knapsackWithItems } = require('../../../src/problems/level2/knapsack');
 
 describe('배낭 문제 테스트', () => {
   describe('기본 knapsack 함수 테스트', () => {

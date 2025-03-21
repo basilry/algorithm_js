@@ -1,4 +1,4 @@
-const LRUCache = require('../../../src/algorithms/problems/level2/lruCache');
+const LRUCache = require('../../../src/problems/level2/lruCache');
 
 describe('LRU 캐시 구현 문제 테스트', () => {
   test('예제 1: 기본 작업 순서 테스트', () => {

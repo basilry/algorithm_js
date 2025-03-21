@@ -1,4 +1,4 @@
-const { maxPathSum, maxPathSumWithPath } = require('../../../src/algorithms/problems/level3/triangle');
+const { maxPathSum, maxPathSumWithPath } = require('../../../src/problems/level3/triangle');
 
 describe('정수 삼각형 문제 테스트', () => {
   describe('maxPathSum 함수 테스트', () => {

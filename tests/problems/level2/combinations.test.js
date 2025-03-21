@@ -1,4 +1,4 @@
-const findCombinationSum = require('../../../src/algorithms/problems/level2/combinations');
+const findCombinationSum = require('../../../src/problems/level2/combinations');
 
 describe('숫자 조합 문제', () => {
   test('예제 1: 목표합 7의 모든 조합', () => {
